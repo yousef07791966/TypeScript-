@@ -50,3 +50,28 @@ console.log(`Oldest Admin: ${oldestAdmin.name}`);
 } else {
 console.log("No admin found");
 }
+
+//////// 1
+
+let multiTypeArray: (number | string)[] = [1, "hello", 2, "world"];
+
+
+////////// 2
+function sum(...numbers: number[]): number {
+    return numbers.reduce((acc, curr) => acc + curr, 0);
+}
+
+console.log(sum(1, 2, 3)); // Output: 6
+console.log(sum(5, 10, 15, 20)); // Output: 50
+
+////////// 3
+
+let myFunction: (x: number, y: number) => number;
+
+myFunction = function (a: number, b: number): number {
+    return a + b;
+}
+
+console.log(myFunction(5, 10)); // Output: 15
+
+////////// 4
