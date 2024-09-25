@@ -22,7 +22,7 @@ for (let i = 0; i < arr2.length; i++){
 console.log("States: ", states);
 
 ///////3
-const namesArray = ["Mohammad", "Sarah", "Alexander", "Amira"];
+const namesArray = ["yousef", "Sarah", "ali", "omar"];
 
 let longestName = namesArray[0];
 

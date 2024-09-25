@@ -9,6 +9,23 @@
     
 <h1>home yousef</h1>
 
+<!--///////////////////////////////////-->
+
+<div *ngIf="isLoggedIn">
+    مرحباً بك في الموقع!
+  </div>
+
+  <div *ngIf="isLoggedIn; else loginPrompt">
+  مرحباً بك في الموقع!
+</div>
+<ng-template #loginPrompt>
+  الرجاء تسجيل الدخول.
+</ng-template>
+
+<!--///////////////////////////////////-->
+
+
+<!--///////////////////////////////////-->
 
     <script src="task1.js"></script>
     <script src="task23-9.js"></script>
